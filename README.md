@@ -4,7 +4,7 @@
 Sistema de cadastro de alunos
 
 ### Tecnologias Usadas
-HTML
-CSS
-JAVASCRIPT
+HTML;
+CSS;
+JAVASCRIPT;
 
