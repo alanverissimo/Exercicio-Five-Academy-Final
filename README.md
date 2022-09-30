@@ -1,9 +1,9 @@
-Projeto Five Academy 
+### Projeto Five Academy 
 
-Objetivo
+### Objetivo
 Sistema de cadastro de alunos
 
-Tecnologias Usadas
+### Tecnologias Usadas
 HTML
 CSS
 JAVASCRIPT
