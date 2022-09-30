@@ -1,6 +1,6 @@
 const url = "https://five-turma-3.herokuapp.com/alunos";
 
-onload = function () {
+window.onload = function () {
     fetch(url)
         .then(resposta => resposta.json())
         .then(data => {
