@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Alunos </title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand text-light" href="index.html">
+                    <img src="assets/img/logo.png" alt="logo" width="20" class="me-4">
+                    Menu
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="header__menu-icon">&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link link" aria-current="page" href="index.html">Pagina Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="formulario.html">Adicionar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+
+        <div class="name__page">
+            <h4>Gestão de Alunos</h4>
+        </div>
+
+        <div class="options__menu">
+
+            <a href="index.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-home" title="Pagina Inicial"></i>
+                    <h4>Pagina Inicial</h4>
+                </div>
+            </a>
+
+            <a href="formulario.html" class="selected">
+                <div class="option">
+                    <i class="far fa-file" title="Adicionar"></i>
+                    <h4>Adicionar Aluno</h4>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <main>
+        <h1>Sistema de Alunos Five Academy</h1><br>
+
+        <script src="js/api.js"></script>
+        <script src="js/script.js"></script>        
+        <script src="js/get-alunos.js"></script>        
+        <script src="js/validacoes.js"></script>
+        <script src="js/patch-alunos.js"></script>
+</body>
+
+</html>
